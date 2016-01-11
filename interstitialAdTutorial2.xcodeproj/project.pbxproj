@@ -12,6 +12,7 @@
 		90B0EAE51C440ECF00EDFEA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B0EAE31C440ECF00EDFEA8 /* Main.storyboard */; };
 		90B0EAE71C440ECF00EDFEA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B0EAE61C440ECF00EDFEA8 /* Assets.xcassets */; };
 		90B0EAEA1C440ECF00EDFEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B0EAE81C440ECF00EDFEA8 /* LaunchScreen.storyboard */; };
+		90B0EAF21C440F5300EDFEA8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B0EAF11C440F5300EDFEA8 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90B0EAE61C440ECF00EDFEA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90B0EAE91C440ECF00EDFEA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90B0EAEB1C440ECF00EDFEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90B0EAF11C440F5300EDFEA8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B0EAF21C440F5300EDFEA8 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +57,7 @@
 		90B0EADE1C440ECF00EDFEA8 /* interstitialAdTutorial2 */ = {
 			isa = PBXGroup;
 			children = (
+				90B0EAF11C440F5300EDFEA8 /* GoogleMobileAds.framework */,
 				90B0EADF1C440ECF00EDFEA8 /* AppDelegate.swift */,
 				90B0EAE11C440ECF00EDFEA8 /* ViewController.swift */,
 				90B0EAE31C440ECF00EDFEA8 /* Main.storyboard */,
@@ -249,6 +253,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/interstitialAdTutorial2",
+				);
 				INFOPLIST_FILE = interstitialAdTutorial2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kenechi.interstitialAdTutorial2;
@@ -260,6 +268,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/interstitialAdTutorial2",
+				);
 				INFOPLIST_FILE = interstitialAdTutorial2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kenechi.interstitialAdTutorial2;
